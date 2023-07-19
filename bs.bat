@@ -31,7 +31,7 @@ if %item%==10180 goto TetrisDownload
 cls
 goto Menu
 :TetrisDownload
-bitsadmin.exe /transfer "tetris" http://https://blopdos.github.io/tetris/tetris.bat %SystemDrive%/BlopstoreApps/tetris.bat
+bitsadmin.exe /transfer "tetris" http://blopdos.github.io\tetris\tetris.bat %SystemDrive%\BlopstoreApps\tetris.bat
 cls
 goto Menu
 
